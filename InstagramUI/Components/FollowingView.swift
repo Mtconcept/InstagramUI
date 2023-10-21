@@ -15,7 +15,8 @@ struct FollowingView: View {
                     .padding(.bottom)
                     .padding(.horizontal)
                 ForEach(0..<4) { index in
-                    Section(header:Text("New").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)) {
+                    Section(header:Text("New")
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)) {
                         HStack(content: {
                             Image("avatar")
                                 .resizable()

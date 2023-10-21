@@ -22,7 +22,7 @@ struct LikeView: View {
             if currentTab == 0 {
                FollowingView()
             }else{
-                Text("Following View")
+                Text("Coming Soon...")
             }
             
             Spacer()
